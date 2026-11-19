@@ -1,0 +1,37 @@
+# ---- secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets.*
+*.secret
+credentials.json
+token.json
+.netrc
+
+# ---- local / OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# ---- python / node ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# ---- 本地私有笔记（不上传）----
+private/
+scratch/
+*.private.md
